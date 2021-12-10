@@ -16,4 +16,10 @@ charcount("The thing.")
 '''
 
 def charcount(message):
-  pass  # delete this line when you start writing your code
+  dicit = {}
+  message = message.lower()
+  for a in message: 
+    dicit.setdefault(a,0)
+    dicit[a] = dicit[a] + 1 
+  return dicit
+    

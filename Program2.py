@@ -13,4 +13,28 @@ exponents(3)
 '''
 
 def exponents(exp): #do not change this line
-  pass #delete this line when you start writing your code
+  
+  dicit = {
+    "2" : "0", 
+    "3" : "0",
+    "4" : "0",
+    "5" : "0",
+    "6" : "0",
+    "7" : "0",
+    "8" : "0", 
+    "9" : "0",
+    "10" : "0",
+    "11" : "0",
+    }
+   dict.update({"2": 2**exp})
+   dict.update({"2": 2**exp})
+   dict.update({"2": 2**exp})
+   dict.update({"2": 2**exp})
+  dict.update({"2": 2**exp})
+  dict.update({"2": 2**exp})
+  dict.update({"2": 2**exp})
+  dict.update({"2": 2**exp})
+dict.update({"2": 2**exp})
+
+
+  
